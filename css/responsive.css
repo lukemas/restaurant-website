@@ -1,0 +1,132 @@
+@media screen and (max-width:1200px){
+	
+}
+ 
+@media screen and (max-width:991px){
+.mainmenu ul.nav.navbar-nav li a {
+    padding: 38px 11px;
+}
+.mainmenu {
+     padding-right: 118px;
+}
+.header-area.sticky{
+	height:115px;
+}
+.header-area.sticky .mainmenu{
+	padding-right:130px;
+}
+.header-area.sticky .mainmenu ul.nav.navbar-nav a {
+  padding: 25px 7px;
+  transition: all 0.4s ease 0s;
+}
+.header-text h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 43px;
+    margin-top: 31px;
+    padding-bottom: 70px;
+}
+.author-food-img{
+	text-align:center;
+	margin-top:30px;
+}
+.contact-img{
+	text-align:center;
+	margin-bottom:30px;
+}
+}
+ 
+ @media screen and (max-width:760px){
+	 
+ }
+ 
+ 
+@media screen and (max-width:480px){   
+.social-link a {
+    display:none;
+}
+.main-menu{
+	padding-top:0px;
+}
+.header-area.sticky{
+	height:70px;
+}
+.header-text h2{
+	font-size:24px;
+	line-height:45px;
+}
+.btn-filled {
+    color: #fff;
+    display: inline-block;
+    margin: 6px;
+    padding: 3px 7px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+}
+/* mobile menu toggle*/
+.toggle-menu{
+	background:#f93564;
+	border:1px solid #fff;
+	margin-right:-22px;
+	margin-top:-75px;
+	
+	position:relative;
+	
+}
+.navbar-toggle .icon-bar {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 1px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+.mobile-menu-actiated .ul.nav.navbar-nav{
+	background:#000;
+}
+.contact-img img {
+    margin-left: 20px;
+    margin-top: 18px;
+    width: 204px;
+}
+.navbar-header {
+    
+}
+.sticky .navbar-toggle{
+margin-top:-46px;
+margin-right:-36px;
+position:relative;
+}
+.section-title.white-section-title{
+	font-size:20px;
+}
+.section-title{
+	font-size:20px;
+}
+
+.mobile-menu-actiated ul.nav.navbar-nav li{
+	display:block;text-align:center;
+}
+.mobile-menu-actiated ul.nav.navbar-nav li a{
+	padding:10px;
+	border-bottom:1px solid #fff;
+}
+.mobile-menu-actiated ul.nav.navbar-nav{
+	background:#000;
+}
+.header-area.sticky .mainmenu ul.nav.navbar-nav a {
+    padding: 17px 7px;
+    transition: all 0.4s ease 0s;
+}
+.mainmenu ul.nav.navbar-nav li a {
+    padding: 15px 18px;
+}
+.header-area.sticky .mainmenu {
+    margin: 5px;
+    padding-right: 20px;
+}
+.mainmenu {
+    padding-right: 14px;
+}
+}

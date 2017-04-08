@@ -1,0 +1,343 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Yeseva One', cursive;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 20px;
+}
+a:hover { text-decoration: none }
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus { -webkit-box-shadow: 0 0 0px 1000px white inset !important }
+.top-area { position: relative }
+.slide-bg-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background: url(img/restaurant1.jpg);
+}
+.slide-bg-2 {
+    background: url(img/bk.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.header-text { padding: 100px 0 }
+.header-text h2 {
+    font-weight: normal;
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 40px;
+    padding-bottom: 70px;
+    background: url(img/icon.png)no-repeat center bottom;
+    margin-bottom: 40px;
+}
+.mainmenu {
+    position: relative;
+    padding-right: 80px;
+}
+.mainmenu ul.nav.navbar-nav {
+    text-align: right;
+    float: none;
+    font-size: 20px;
+}
+.mainmenu ul.nav.navbar-nav li {
+    float: none;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+}
+.mainmenu ul.nav.navbar-nav li a {
+    color: #fff;
+    padding: 40px 16px;
+}
+.mainmenu ul.nav.navbar-nav li a:hover { background: none }
+.mainmenu ul.nav.navbar-nav li.active:before {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #cc9900;
+    left: 0px;
+    content: "";
+    top: 0px;
+}
+.btn-filled {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+.btn-filled:after {
+    z-index: -1;
+    content: "";
+    top: 0;
+    left: 0;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1d2122;
+}
+.setion-padding { padding: 80px 0px }
+.section-title {
+    text-align: center;
+    color: #cc9900;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+    background: rgba(0,0,0,0) url(img/section-pattern.png)no-repeat center bottom;
+}
+.section-title.white-section-title {
+    background: rgba(0,0,0,0) url(img/icon1.png)no-repeat center bottom;
+    color: #fff;
+}
+.btn-filled.yellow-btn:after {
+    z-index: -1;
+    content: "";
+    top: 0;
+    left: 0;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #cccc66;
+    border: 1px solid #ffffcc;
+}
+.social-link {
+    position: absolute;
+    top: 38px;
+    right: 0;
+    display: inline-block;
+    padding-left: 5px;
+}
+.social-link a {
+    color: #dab33e;
+    font-size: 20px;
+}
+.about-text {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.author-photo { margin-top: 30px }
+.about-area { background: url(img/paisley.png) }
+.igredients-area { position: relative }
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.igredients-bg { background-image: url(img/para-background.jpg) }
+.igredients-text {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    padding: 30px;
+}
+.igredients-text p { margin-bottom: 30px }
+.igredients-text:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    z-index: -1;
+    opacity: .6;
+    filter: alpha(opacity=60);
+}
+.food-menu-area { background: url(img/crossword.png) }
+.single-food-menu-item  span {
+    float: right;
+    font-weight: normal;
+}
+.single-food-menu-item { margin-bottom: 40px }
+.section-title1 {
+    color: #cc9900;
+    font-size: 23px;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+    text-align: normal;
+    border-bottom: 1px solid #cc9900;
+}
+.single-food-menu-item p { font-size: 16px }
+.special {
+    position: relative;
+    border: 1px solid #cc9900;
+    padding: 10px;
+}
+.special:before {
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 11px;
+    background: #cc9900;
+    text-transform: uppercase;
+    content: "special";
+    top: -19px;
+    position: absolute;
+    right: -1px;
+}
+.testimonial-item {
+    position: relative;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    padding: 65px;
+}
+.testimonial-item:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    z-index: -1;
+    opacity: .6;
+    filter: alpha(opacity=60);
+}
+.testimonial-area { position: relative }
+.testimonial-bg { background-image: url(img/guest-review.jpg) }
+.testimonial-area p.reiews-author { font-size: 18px }
+#testimonial-carousel { position: relative }
+#testimonial-carousel:before {
+    font-family: fontawesome;
+    content: "\f10d";
+    font-size: 25px;
+    color: #989b9a;
+    position: absolute;
+    left: -29px;
+    position: absolute;
+    top: -18px;
+}
+.contact-text p { font-size: 18px }
+.contact-img img {
+    width: 235px;
+    margin-left: 20px;
+}
+.contact-us-area { background: url(img/paisley1.png) }
+.footer-icon {
+    font-size: 21px;
+    font-weight: normal;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    background: rgba(0,0,0,0) url(img/footer-icon.png)no-repeat center bottom;
+    color: #fff;
+}
+.footer-area {
+    background: #191919;
+    padding: 25px;
+}
+.footer-text p {
+    color: #fefefe;
+    font-size: 16px;
+}
+.footer-cards i {
+    font-size: 20px;
+    color: #fefefe;
+    margin: 5px;
+}
+.footer-social-icon i {
+    font-size: 20px;
+    color: #fefefe;
+    margin: 5px;
+}
+.font-colr {
+    color: #cc9900;
+    font-size: 18px;
+}
+.logo img { height: 90px }
+.is-sticky .logo img {
+    height: 63px;
+    padding: 5px 0;
+    width: auto;
+}
+.header-area {
+    color: #fff;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+    width: 100%;
+    z-index: 999;
+}
+.header-area.sticky {
+    position: fixed;
+    font-size: 20px;
+    height: 70px;
+    background: #000;
+    padding-left: 12px;
+    -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+    background: rgba(0,0,0,.7);
+}
+.sticky.header-area.overlay { }
+.header-area.sticky .logo img {
+    height: 55px;
+    padding: 5px;
+    -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+}
+.header-area.sticky .mainmenu ul.nav.navbar-nav a {
+    padding: 25px 16px;
+    -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+}
+.header-area.sticky .mainmenu .social-link a { }
+.header-area.sticky .mainmenu .social-link {
+    margin-top: -16px;
+    -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+}
+.header-area.sticky .mainmenu ul.nav.navbar-nav li.active a { color: #cc9900 }
+.header-text-area {
+    position: relative;
+    padding-top: 80px;
+}
+/* mobile menu toggle*/
